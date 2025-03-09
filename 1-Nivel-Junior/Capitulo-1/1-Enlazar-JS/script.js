@@ -1,0 +1,1 @@
+alert("Este mensaje se genero con un archivo externo")
