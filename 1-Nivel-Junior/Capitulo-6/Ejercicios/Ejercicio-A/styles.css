@@ -1,0 +1,56 @@
+h2, h3 {
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: #333;
+    font-family: sans-serif;
+}
+
+.flex-item {
+    flex-grow: 1;
+    margin: 20px;
+    max-width: 300px;
+    border: 2px solid #333;
+    padding: 0 20px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease; /
+}
+
+.flex-item:hover, .flex-item:focus  {
+    border-color: #71a154;
+    box-shadow: 0 0 30px #317124;
+}
+
+.modelo {
+    color: #999;
+}
+
+.precio-cantidad {
+    color: #71a154;
+}
+
+.llave-img {
+    width: 300px;
+}
+
+.formulario {
+    text-align: center;
+    padding: 50px;
+}
+
+input[type="submit"] {
+    background: #71a154;
+    color: #fff;
+    padding: 12px 36px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+    background: #317124;
+    box-shadow: 0 0 30px #317124;
+}
