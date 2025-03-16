@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100dvw;
+    height: 100dvh;
+    object-fit: cover;
+    object-position: center;
+    box-sizing: border-box;
+}
+
+.seleccionado {
+    color: #777;
+}
+
+.seleccionado strong {
+    color: #0A0;
+}

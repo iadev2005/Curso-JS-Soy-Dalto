@@ -1,0 +1,32 @@
+body {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+    height: 100dvh; */
+    font-family: sans-serif;
+    background: #ededed;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(4, minmax(min-content, max-content));
+    grid-auto-rows: 50px;
+}
+
+.grid-container .grid-item {
+    padding: 10px;
+    border: 1px solid #48e;
+    margin: 3px;
+    background: #fff;
+}
+
+.confirm {
+    padding: 9px 40px;
+    background: #48e;
+    color: #fff;
+    border: none;
+    margin-top: 15px;
+    margin-left: 5px;
+}
