@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+}
+
+#getInfo {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.resultado {
+    background: #efefef;
+    padding: 20px;
+    font-size: 19px;
+}
