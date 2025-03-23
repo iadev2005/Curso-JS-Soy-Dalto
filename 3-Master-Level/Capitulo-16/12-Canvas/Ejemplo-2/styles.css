@@ -1,0 +1,19 @@
+body {
+    background: #ededed;
+}
+
+body, div {
+    padding: 0;
+    margin: 0;
+}
+
+canvas {
+    border: 1px solid #000;
+}
+
+.editor {
+    background: #fff;
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+}
